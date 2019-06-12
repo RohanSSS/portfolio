@@ -12,6 +12,7 @@ const Container = styled.section`
   justify-content: center;
   align-items: center;
   position: relative;
+  border-bottom: solid 1px white;
 `;
 
 const Exit = styled.button`
