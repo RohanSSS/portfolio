@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Container = styled.section`
   background-color: black;
@@ -17,7 +17,7 @@ const Header = () => {
     <Container>
       <Title>Who Am I</Title>
     </Container>
-  )
-}
+  );
+};
 
 export default Header;
