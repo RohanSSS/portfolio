@@ -13,9 +13,9 @@ const Container = styled.section`
 `;
 
 const Image = styled.img`
-  width: 30vw;
+  /* width: 30vw; */
   min-width: 10em;
-  heigt: auto;
+  max-width: 20em;
   border-radius: 50%;
   border: solid 3px black;
 `;

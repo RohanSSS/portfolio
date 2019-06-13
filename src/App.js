@@ -1,16 +1,26 @@
-import React from "react";
-import "./App.css";
-import { Wip, Header } from './components';
-import Home from './pages/home'
+import React from 'react';
+import styled from 'styled-components';
 
-function App() {
+import { Wip, Header, Footer } from './components';
+import Home from './pages/home';
+
+const AppSection = styled.div`
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+`;
+
+const App = () => {
   return (
-    <div className="App">
+    <AppSection>
       <Wip />
       <Header />
       <Home />
-    </div>
+      <Footer />
+    </AppSection>
   );
-}
+};
 
 export default App;
