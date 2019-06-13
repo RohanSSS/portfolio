@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import profilePic from '../assets/profile.jpg';
-import cv from '../assets/CV.pdf'
+import cv from '../assets/CV.pdf';
 
 const Container = styled.section`
   width: 100vw;
